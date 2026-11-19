@@ -1,4 +1,4 @@
-# nashboard-ai
+# Nashboard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nashboard-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nashboard.ai/
+Nashboard is a privacy‑first money tracker for iPhone that lets users type or dictate expenses, which AI then turns into booked transactions. The service offers offline entry, automatic categorisation, and supports multiple accounts and currencies. It provides free core features with optional paid plans for voice entry and advanced AI insights, and includes detailed documentation on getting started, plans, billing, privacy, data export, and deletion.
+
+**Areas:** Finance · PersonalFinance · iOS · AI · Privacy
+
+## Nashboard on APIs.io
+
+Everything profiled for Nashboard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nashboard-ai/](https://apis.io/providers/nashboard-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Nashboard Flywheel API](https://apis.io/apis/nashboard-ai/nashboard-ai-flywheel-api/) — Feed the merchant-correction learning corpus.
+- [Nashboard Key Management API](https://apis.io/apis/nashboard-ai/nashboard-ai-key-management-api/) — Self-service API key lifecycle.
+- [Nashboard Merchant Enrichment API](https://apis.io/apis/nashboard-ai/nashboard-ai-merchant-enrichment-api/) — Normalize raw bank descriptors to merchant identity, category, and hierarchy.
+- [Nashboard Public API](https://apis.io/apis/nashboard-ai/nashboard-ai-public-api/) — Unauthenticated public endpoints.
+- [Nashboard Receipt OCR API](https://apis.io/apis/nashboard-ai/nashboard-ai-receipt-ocr-api/) — Upload and parse receipt images.
+- [Nashboard Self Serve API](https://apis.io/apis/nashboard-ai/nashboard-ai-self-serve-api/) — Account signup and management.
+- [Nashboard Usage & SLA API](https://apis.io/apis/nashboard-ai/nashboard-ai-usage-sla-api/) — Billing usage and SLA history.
+- [Nashboard Webhooks API](https://apis.io/apis/nashboard-ai/nashboard-ai-webhooks-api/) — Push delivery for async OCR results.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Nashboard Agentic Access](https://apis.io/agentic-access/nashboard-ai/nashboard-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BulkEnrichResponse](https://apis.io/schemas/nashboard-ai/nashboard-ai-bulk-enrich-response/)
+- [EnrichResponse](https://apis.io/schemas/nashboard-ai/nashboard-ai-enrich-response/)
+- [ReceiptDetail](https://apis.io/schemas/nashboard-ai/nashboard-ai-receipt-detail/)
+- [SlaResponse](https://apis.io/schemas/nashboard-ai/nashboard-ai-sla-response/)
+- [TransactionInput](https://apis.io/schemas/nashboard-ai/nashboard-ai-transaction-input/)
+- [UsageResponse](https://apis.io/schemas/nashboard-ai/nashboard-ai-usage-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nashboard Ai Context](https://apis.io/jsonld/nashboard-ai/nashboard-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Nashboard API Rules](https://apis.io/rules/nashboard-ai/nashboard-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nashboard Authentication](https://apis.io/security/nashboard-ai/nashboard-ai-authentication/)
+- [Nashboard Domain Security](https://apis.io/security/nashboard-ai/nashboard-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nashboard.ai/)
+- [Documentation](https://nashboard.ai/docs)
+- [Support](https://nashboard.ai/contact)
+- [Terms of service](https://nashboard.ai/terms)
+- [Privacy policy](https://nashboard.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.5** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 62.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 17.0 |
+
+**Agent readiness 42.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nashboard-ai/](https://apis.io/providers/nashboard-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nashboard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nashboard-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
